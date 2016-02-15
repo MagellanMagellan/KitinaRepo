@@ -54,7 +54,7 @@ def Repo():
     if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.kitina’)):
         return
      
-    url = "https://github.com/MagellanMagellan/repository.kitina/raw/master/repo/repository.kitina-1.1.1.zip"
+    url = "https://github.com/MagellanMagellan/repository.kitina/raw/master/repo/repository.kitina-1.1.0.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
     
