@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id=“KitinaRepo” name="Magellan Repo" version="1.1.0" provider-name="Leon Branco">
+<extension point="xbmc.addon.repository" name="Magellan Repo">
+<info compressed="false">http://raw.github.com/MagellanMagellan/KitinaRepo/master/addons.xml</info>
+<checksum>http://raw.github.com/MagellanMagellan/KitinaRepo/master/addons.xml.md5</checksum>
+<datadir zip="true">http://raw.github.com/MagellanMagellan/KitinaRepo/master/repo/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Magellan Repo</summary>
+<description>Lista de canais Magellan</description>
+<disclaimer></disclaimer>
+<platform>all</platform>
+</extension>
+</addon>
+
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
        version="2.0.1"
@@ -91,19 +105,5 @@
     <description>Lista de canais Magellan</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="repository.kitina" name="Magellan Repo" version="1.1.0" provider-name="Leon Branco">
-<extension point="xbmc.addon.repository" name="Magellan Repo">
-<info compressed="false">http://raw.github.com/MagellanMagellan/KitinaRepo/master/addons.xml</info>
-<checksum>http://raw.github.com/MagellanMagellan/KitinaRepo/master/addons.xml.md5</checksum>
-<datadir zip="true">http://raw.github.com/MagellanMagellan/KitinaRepo/master/repo/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Magellan Repo</summary>
-<description>Lista de canais Magellan</description>
-<disclaimer></disclaimer>
-<platform>all</platform>
-</extension>
 </addon>
 </addons>
